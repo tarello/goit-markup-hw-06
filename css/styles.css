@@ -257,22 +257,26 @@ img {
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+  display: none;
 }
 .advantages {
   padding: 120px 0 120px;
 }
 .advantages-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px;
 }
 .advantages-subtitle {
+  display: flex;
   margin-bottom: 8px;
 }
 .advantages-item {
-  width: calc((100% - 72px) / 4);
+  /* width: calc((100% - 72px) / 4); */
+  width: 100%;
 }
 /**-------------PRODUCTS-------------- */
-.products {
+/* .products {
   padding-bottom: 120px;
 }
 .products-title {
@@ -286,8 +290,8 @@ img {
 }
 .products-item {
   width: calc((100% - 24px * 2) / 3);
-  margin: 0 auto;
-}
+  margin: 0 auto; */
+
 /**-------------TEAM-------------- */
 
 .team {
