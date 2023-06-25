@@ -18,9 +18,6 @@
     letter-spacing: 0.72px;
     text-transform: capitalize;
   }
-  .products {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -42,8 +39,14 @@
     letter-spacing: 0.72px;
     text-transform: capitalize;
   }
-  .products {
-    display: none;
+  .team-item {
+    max-width: unset;
+    width: calc((100% - 24px) / 2);
+  }
+  .team-list {
+    gap: 64px 24px;
+    padding-left: 108px;
+    padding-right: 108px;
   }
 }
 
@@ -73,19 +76,17 @@
     margin: 0 auto;
   }
   .products {
+    display: block;
+  }
+  .team {
+    padding-top: 120px;
     padding-bottom: 120px;
   }
-  .products-title {
-    margin: 0 auto;
-    margin-bottom: 72px;
-    text-transform: capitalize;
+  .team-item {
+    max-width: unset;
+    width: calc((100% - 3 * 24px) / 4);
   }
-  .products-list {
-    display: flex;
+  .team-list {
     gap: 24px;
-  }
-  .products-item {
-    width: calc((100% - 24px * 2) / 3);
-    margin: 0 auto;
   }
 }
