@@ -276,14 +276,13 @@ img {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  /* padding-top: 188px;
-  padding-bottom: 188px; */
+
   padding-top: 112px;
   padding-bottom: 112px;
 }
 .hero-title {
   font-weight: 700;
-  /* font-size: 56px; */
+
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
@@ -341,7 +340,6 @@ img {
   margin-bottom: 8px;
 }
 .advantages-item {
-  /* width: calc((100% - 72px) / 4); */
   width: 100%;
 }
 /**-------------PRODUCTS-------------- */
@@ -381,7 +379,7 @@ img {
 }
 .team-item {
   background-color: #ffffff;
-  /* width: calc((100% - 3 * 24px) / 4); */
+
   width: 100%;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -453,11 +451,10 @@ img {
 .costumers-list {
   display: flex;
   flex-wrap: wrap;
-  /* gap: 24px; */
+
   list-style: none;
 }
 .costumers-item {
-  /* width: calc((100% - 120px) / 6); */
   height: 88px;
 }
 .costumers-link {
