@@ -6,6 +6,25 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .mob-icon-wrap {
+    display: flex;
+    /* justify-content: center; */
+    gap: 56px;
+    list-style: none;
+    margin-top: 48px;
+    /* margin-right: 60px; */
+  }
+  .mob-addres-item-tel {
+    font-style: normal;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    color: #4d5ae5;
+  }
   .advantages-item {
     max-width: 396px;
   }
@@ -176,6 +195,7 @@
   .header {
     height: 100%;
     width: 100%;
+    padding: 0;
   }
   .header-conteiner {
     height: 72px;
@@ -211,8 +231,6 @@
   .header-addres-list {
     flex-direction: column;
     gap: 12px;
-    margin-top: 16px;
-    margin-bottom: 16px;
   }
 
   .header-addres-link:hover,
@@ -301,14 +319,12 @@
   .team {
     width: 100%;
     height: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
   .team-container {
     max-width: 584px;
     height: 100%;
-    padding-top: 96px;
-    padding-bottom: 96px;
   }
   .team-tittle {
     margin: 0 auto;
