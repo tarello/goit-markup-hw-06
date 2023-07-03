@@ -39,6 +39,25 @@
   .hero-button {
     padding: 16px 32px;
   }
+  .modal {
+    /* width: 95%;
+  max-width: 392px;
+  height: 95%;
+  max-height: 584px;
+  overflow: scroll; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 408px;
+    min-height: 584px;
+    background: #fcfcfc;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 72px 24px 24px 24px;
+  }
 
   .advantages-item-text {
     font-weight: 500;
@@ -89,8 +108,8 @@
     max-width: 268px;
   }
   .footer-old {
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
   }
   .footer-form {
     flex-direction: column;
@@ -99,8 +118,8 @@
     gap: 16px;
   }
   .footer-soc {
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
   }
   .footer-media {
     font-weight: 500;
@@ -108,11 +127,11 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-color);
-    margin-top: 72px;
+    /* margin-top: 72px; */
     text-align: center;
   }
   .footer-subscribe {
-    margin-top: 72px;
+    /* margin-top: 72px; */
     /* margin-bottom: 96px; */
     margin-left: auto;
     margin-right: auto;
@@ -354,7 +373,7 @@
   .footer {
     width: 100%;
     height: 100%;
-    padding: 0;
+    padding: 100px 0;
   }
   .footer-conteiner {
     display: flex;
@@ -375,7 +394,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 17px;
-    margin-top: 96px;
+    /* margin-top: 96px; */
   }
   .footer-text {
     display: block;
@@ -387,8 +406,8 @@
     max-width: 268px;
   }
   .footer-old {
-    margin-left: 0;
-    margin-right: auto;
+    /* margin-left: 0;
+    margin-right: auto; */
   }
   .footer-form {
     display: flex;
@@ -399,8 +418,9 @@
     flex-direction: unset;
   }
   .footer-soc {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /* margin-left: auto;
+    margin-right: auto; */
   }
   .footer-media {
     font-weight: 500;
@@ -408,14 +428,14 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--title-color);
-    margin-top: 72px;
+    /* margin-top: 72px; */
     text-align: left;
   }
   .footer-subscribe {
     margin-top: 0;
-    margin-bottom: 96px;
+    /* margin-bottom: 96px; */
     margin-left: 0;
-    margin-right: auto;
+    /* margin-right: auto; */
     gap: 24px;
     align-items: center;
   }
@@ -436,7 +456,7 @@
   .footer-email-text {
     width: 264px;
     height: 40px;
-    margin-right: 40px;
+    /* margin-right: 40px; */
   }
 }
 
@@ -568,7 +588,6 @@
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
-    display: block;
   }
   .advantages-icon {
     display: flex;
@@ -576,9 +595,10 @@
   }
   .products {
     display: block;
+    padding-bottom: 120px;
   }
   .team-tittle {
-    margin-top: 120px;
+    /* margin-top: 120px; */
     margin-bottom: 72px;
   }
   .team-item {
@@ -587,7 +607,7 @@
   }
   .team-list {
     gap: 24px;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
   }
   .costumers {
     padding: 0;
